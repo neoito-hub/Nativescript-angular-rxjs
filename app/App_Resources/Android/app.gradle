@@ -1,0 +1,14 @@
+// Add your native dependencies here:
+
+// Uncomment to add recyclerview-v7 dependency
+
+android {  
+  defaultConfig {  
+    generatedDensities = []
+    applicationId = "org.nativescript.propertypush"  
+  }  
+  aaptOptions {  
+    additionalParameters "--no-version-vectors"  
+  }  
+ 
+} 
